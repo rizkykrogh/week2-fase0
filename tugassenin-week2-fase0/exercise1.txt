@@ -1,0 +1,77 @@
+// 1
+[ALGORITMA]
+1. Isi massaBenda dengan nilai 600
+2. Isi percepatanBenda dengan nilai 2
+3. Hitung resultanGaya dengan mengkalikan massaBenda percepatanBenda
+
+[PSEUDOCODE]
+SET massaBenda to 600
+SET percepatanBenda to 2
+CALCULATE resultanGaya as massaBenda times percepatanBenda
+DISPLAY resultanGaya
+
+// 2
+[ALGORITMA]
+1. Input tahun yang akan ditentukan
+2. Cek tahun jika habis dibagi 4 maka lanjutkan ke tahap 3,
+   jika tidak maka tahun yang diinput bukan tahun kabisat.
+3. Cek tahun jika habis dibagi 100 maka lanjutkan ke tahap 4,
+   jika tidak maka tahun yang diinput merupakan tahun kabisat.
+4. Cek tahun jika habis dibagi 400 maka tahun yang diinput merupakan tahun kabisat,
+   jika tidak maka tahun yang diinput bukan tahun kabisat.
+
+[PSEUDOCODE]
+GET inputTahun
+IF inputTahun habis dibagi 4 THEN
+    IF inputTahun habis dibagi 100 THEN
+        IF inputTahun habis dibagi 400 THEN
+            DISPLAY 'Tahun Kabisat'
+        ELSE
+            DISPLAY 'Bukan Tahun Kabisat'
+        ENDIF
+    ELSE
+        DISPLAY 'Tahun Kabisat'
+    ENDIF
+ELSE
+    DISPLAY 'Bukan Tahun Kabisat'
+ENDIF
+
+//3
+[ALGORITMA]
+1. Set jumlah pakaian yang masuk ke mesin cuci ke 0
+2. Set jumlah pakaian yang akan dicuci sebanyak 20
+3. Masukan pakaian ke dalam mesin cuci
+4. Jika jumlah pakaian yang masuk ke mesin cuci kurang dari jumlah pakaian yang akan dicuci, balik tahap 2,
+   jika tidak, lanjutkan ke tahap 5
+5. Nyalakan mesin cuci
+
+[PSEUDOCODE]
+SET counter to 0
+SET jumlahPakaian to 20
+WHILE counter < jumlahPakaian
+    Masukan pakaian ke mesin cuci
+    INCREMENT counter by 1
+ENDWHILE
+Nyalakan mesin cuci
+
+//4
+[ALGORITMA]
+1. Set nilai n ke 1
+2. Set jumlah seluruh murid sebanyak 40
+3. Cek kuku murid ke-n, jika kuku murid tersebut panjang maka hukum murid tersebut,
+   jika tidak, maka beri pujian pada murid tersebut
+4. Tambah jumlah murid yang diperiksa sebanyak 1
+5. Jika jumlah murid yang diperiksa kurang dari atau sama dengan jumlah seluruh murid, balik ke tahap 3
+   jika tidak, stop algoritma. 
+
+[PSEUDOCODE]
+SET n to 1
+SET jumlahMurid 40
+WHILE n <= jumlahMurid
+    IF kuku murid ke-n panjang THEN 
+        Beri hukuman kepada murid ke-n 
+    ELSE 
+        Beri pujian kepada murid ke-n 
+    ENDIF
+    INCREMENT n by 1
+ENDWHILE
