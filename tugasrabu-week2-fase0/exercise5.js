@@ -39,11 +39,11 @@ console.log('Fifth Word ' + fifthWord3);
 
 // 4
 var word4 = 'wow JavaScript is so cool';
-var firstWord4 = word4.substring[0, 2];
-var secondWord4 = word4.substring[4, 13];
-var thirdWord4 = word4.substring[15, 16];
-var fourthWord4 = word4.substring[18, 19];
-var fifthWord4 = word4.substring[21, 24];
+var firstWord4 = word4.substring(0, 2);
+var secondWord4 = word4.substring(4, 13);
+var thirdWord4 = word4.substring(15, 16);
+var fourthWord4 = word4.substring(18, 19);
+var fifthWord4 = word4.substring(21, 24);
 
 var firstWordlength = firstWord4.length;
 var secondWordlength = secondWord4.length;

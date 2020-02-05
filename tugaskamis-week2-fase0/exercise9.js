@@ -1,5 +1,5 @@
 // 1
-funtion; shoutOut(); {
+function shoutOut() {
     return 'Halo Function!';
 }
 console.log(shoutOut());

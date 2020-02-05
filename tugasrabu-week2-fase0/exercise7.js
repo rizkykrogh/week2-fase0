@@ -2,7 +2,7 @@
 var rows1;
 rows1 = 5;
 
-for(var i = 0; 1, rows1; i++) {
+for(var i = 0; i < rows1; i++) {
     console.log('*');
 }
 
@@ -17,7 +17,7 @@ for(var baris = 0; baris < rows2; baris++) {
     }
     console.log(temp);
 }
-
+ 
 // 3
 var rows3;
 rows3 = 5;
