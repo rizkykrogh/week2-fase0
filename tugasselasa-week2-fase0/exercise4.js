@@ -1,6 +1,7 @@
-var date = 26;
-var month = 9;
-var year = 1994;
+var date, month, year;
+date = 26;
+month = 9;
+year = 1994;
 
 switch(month) {
     case 1:
@@ -40,4 +41,4 @@ switch(month) {
         break;
 }
 
-console.log(`${date} ${month} ${year}`)
+console.log(date + '/' + month + '/' + year)
